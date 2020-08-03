@@ -373,19 +373,19 @@ Structural Columns	Hidden Lines	IfcColumn
 Structural Columns	Location Lines	IfcColumn			
 Structural Columns	Rigid Links	IfcColumn			
 Structural Columns	Stick Symbols	IfcColumn			
-Structural Connections		Not Exported			
-Structural Connections	Anchors	Not Exported			
-Structural Connections	Bolts	Not Exported			
+Structural Connections		IfcMechanicalFastener			
+Structural Connections	Anchors	IfcMechanicalFastener			
+Structural Connections	Bolts	IfcMechanicalFastener			
 Structural Connections	Hidden Lines	Not Exported			
-Structural Connections	Holes	Not Exported			
+Structural Connections	Holes	IfcOpeningElement			
 Structural Connections	Modifiers	Not Exported			
 Structural Connections	Others	Not Exported			
-Structural Connections	Plates	Not Exported			
+Structural Connections	Plates	IfcPlate			
 Structural Connections	Profiles	Not Exported			
 Structural Connections	Reference	Not Exported			
-Structural Connections	Shear Studs	Not Exported			
+Structural Connections	Shear Studs	IfcMechanicalFastener			
 Structural Connections	Symbol	Not Exported			
-Structural Connections	Welds	Not Exported			
+Structural Connections	Welds	IfcFastener			
 Structural Fabric Areas		IfcGroup			
 Structural Fabric Areas	Boundary	IfcGroup			
 Structural Fabric Reinforcement		IfcReinforcementMesh			
@@ -394,21 +394,21 @@ Structural Fabric Reinforcement	Fabric Wire	IfcReinforcementMesh
 Structural Foundation Tags		Not Exported			
 Structural Foundations		IfcSlab	BASESLAB		
 Structural Foundations	Hidden Lines	IfcSlab			
-Structural Framing		IfcBuildingElementProxy			
-Structural Framing	Chord	IfcBuildingElementProxy			
-Structural Framing	Girder	IfcBuildingElementProxy			
-Structural Framing	Hidden Faces	IfcBuildingElementProxy			
-Structural Framing	Hidden Lines	IfcBuildingElementProxy			
-Structural Framing	Horizontal Bracing	IfcBuildingElementProxy			
-Structural Framing	Joist	IfcBuildingElementProxy			
-Structural Framing	Kicker Bracing	IfcBuildingElementProxy			
-Structural Framing	Location Lines	IfcBuildingElementProxy			
-Structural Framing	Other	IfcBuildingElementProxy			
-Structural Framing	Purlin	IfcBuildingElementProxy			
-Structural Framing	Rigid Links	IfcBuildingElementProxy			
-Structural Framing	Stick Symbols	IfcBuildingElementProxy			
-Structural Framing	Vertical Bracing	IfcBuildingElementProxy			
-Structural Framing	Web	IfcBuildingElementProxy			
+Structural Framing		IfcMember			
+Structural Framing	Chord	IfcMember			
+Structural Framing	Girder	IfcMember			
+Structural Framing	Hidden Faces	IfcMember			
+Structural Framing	Hidden Lines	IfcMember			
+Structural Framing	Horizontal Bracing	IfcMember			
+Structural Framing	Joist	IfcBeam			
+Structural Framing	Kicker Bracing	IfcMember			
+Structural Framing	Location Lines	IfcMember			
+Structural Framing	Other	IfcMember			
+Structural Framing	Purlin	IfcMember			
+Structural Framing	Rigid Links	IfcMember			
+Structural Framing	Stick Symbols	IfcMember			
+Structural Framing	Vertical Bracing	IfcMember			
+Structural Framing	Web	IfcMember			
 Structural Framing Tags		Not Exported			
 Structural Path Reinforcement		IfcReinforcingBar			
 Structural Path Reinforcement	Boundary	IfcReinforcingBar			
@@ -429,13 +429,13 @@ Title Blocks		Not Exported
 Title Blocks	Medium Lines				
 Title Blocks	Thin Lines				
 Title Blocks	Wide Lines				
-Topography		IfcBuildingElementProxy			
-Topography	Boundary Point	IfcBuildingElementProxy			
-Topography	Hidden Lines	IfcBuildingElementProxy			
-Topography	Interior Point	IfcBuildingElementProxy			
-Topography	Primary Contours	IfcBuildingElementProxy			
-Topography	Secondary Contours	IfcBuildingElementProxy			
-Topography	Triangulation Edges	IfcBuildingElementProxy			
+Topography		IfcSite			
+Topography	Boundary Point	IfcSite			
+Topography	Hidden Lines	IfcSite			
+Topography	Interior Point	IfcSite			
+Topography	Primary Contours	IfcSite			
+Topography	Secondary Contours	IfcSite			
+Topography	Triangulation Edges	IfcSite			
 View Titles		Not Exported			
 Wall Tags		Not Exported			
 Walls		IfcWall			
@@ -453,7 +453,7 @@ Walls	Substrate [2]	IfcWall
 Walls	Surface Pattern	IfcWall			
 Walls	Thermal/Air Layer [3]	IfcWall			
 Walls	Wall Sweep - Trim	IfcWall			
-Walls	Wall Sweeps	IfcBuildingElementProxy			
+Walls	Wall Sweeps	IfcWall			
 Walls/Interior:1		IfcWall			
 Walls/Exterior:2		IfcWall			
 Walls/Foundation:3		IfcWall			
