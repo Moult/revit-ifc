@@ -35,6 +35,21 @@ PARAM	b1d60aea-e267-4ca1-b899-cb06d5eaa9c8	ProjectGlobalPositioning.CRSMapProjec
 PARAM	91150f20-dc6c-4691-be1e-fe0ed0dfae6f	ProjectGlobalPositioning.CRSMapZone	TEXT		2	1		1
 PARAM	093a80c9-4a77-4076-a71c-041e3521608c	ProjectGlobalPositioning.CRSMapUnit	TEXT		2	1		1
 #
+# Parameters to support Project Global Positioning in 2X3
+PARAM	77b9f4d7-a9d3-4f85-85c1-995a81c870d9	EPset_MapConversion.Eastings	NUMBER		2	1		1
+PARAM	dee3cad4-2546-4834-804d-9a83a3939ba1	EPset_MapConversion.Northings	NUMBER		2	1		1
+PARAM	9f4b606f-5452-406d-8ead-aca6b2dd38c6	EPset_MapConversion.OrthogonalHeight	NUMBER		2	1		1
+PARAM	581ce283-08ad-4dc5-9c10-6ecccc7bec47	EPset_MapConversion.XAxisAbscissa	NUMBER		2	1		1
+PARAM	1760b991-b970-473e-8815-a6c7dab7588b	EPset_MapConversion.XAxisOrdinate	NUMBER		2	1		1
+PARAM	c0ed3c28-be4c-494a-8e4c-a411fab7bb57	EPset_MapConversion.Scale	NUMBER		2	1		1
+PARAM	e514ed04-4a40-4219-95e6-eaa9579d4dbc	EPset_ProjectedCRS.Name	TEXT		2	1		1
+PARAM	00ff29e1-6832-4201-923c-ac4481b621e9	EPset_ProjectedCRS.Description	TEXT		2	1		1
+PARAM	afd41bab-226c-459c-b87f-44a00d280ad6	EPset_ProjectedCRS.GeodeticDatum	TEXT		2	1		1
+PARAM	1f4158ff-9950-4afb-ac42-c927b5628aa7	EPset_ProjectedCRS.VerticalDatum	TEXT		2	1		1
+PARAM	5e12167b-9257-4323-a400-a23f31567ee8	EPset_ProjectedCRS.MapProjection	TEXT		2	1		1
+PARAM	723c508f-f4a8-4417-b279-cc136a92192a	EPset_ProjectedCRS.MapZone	TEXT		2	1		1
+PARAM	d439b638-d18a-4a31-ae23-267eab62f649	EPset_ProjectedCRS.MapUnit	TEXT		2	1		1
+#
 # Parameters to override quantity information
 PARAM	9c5ad3aa-75d4-448a-a75c-db72ae2139f8	IfcQtyDepth	LENGTH		2	1		1
 PARAM	90d03a57-2f8c-4c2f-b478-4c43c164e8d2	IfcQtyLength	LENGTH		2	1		1
