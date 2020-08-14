@@ -200,7 +200,6 @@ PARAM	55914e74-79dd-4fef-9539-0c0631743aee	IfcSingleMaterialOverride	TEXT		2	1	P
 PARAM	298bfb8d-7c66-4d69-a493-14beb1bbfd4b	IfcSpatialContainer	TEXT		2	1	Parameter to override element containment	1
 PARAM	8f0306fa-4df3-479d-bc44-e55210e0d0e4	ConcealedCovering	YESNO		2	1		1
 PARAM	8083a04d-d537-4089-acef-03c7d96ec873	UserDefinedOperationType	TEXT		2	1		1
-PARAM	abad1d39-6965-468f-8861-370e6b726678	IfcSiteGUID	TEXT		2	1		1
 #
 # Parameters for IfcDoor and IfcWindow Panel and Lining properties
 PARAM	07dce341-b4e9-4507-8778-0e44321f516f	PanelDepth	LENGTH		2	1		1
