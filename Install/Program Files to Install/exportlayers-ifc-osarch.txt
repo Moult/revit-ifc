@@ -146,7 +146,7 @@ Generic Model Tags		Not Exported
 Generic Models		IfcBuildingElementProxy			
 Generic Models	Hidden Lines	IfcBuildingElementProxy			
 Generic Models	IfcOpeningElements	IfcOpeningElement			
-Grids		Not Exported			
+Grids		IfcGrid			
 Guide Grid		Not Exported			
 Hole Tags		Not Exported			
 HVAC Zones		IfcZone			
